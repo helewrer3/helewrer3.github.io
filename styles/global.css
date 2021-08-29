@@ -1,0 +1,114 @@
+/* ---------------------------------- */
+/* VARIABLES */
+/* ---------------------------------- */
+
+:root {
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    --text-primary: white;
+    --text-secondary: #6649b8;
+    --text-tertiary: #E086D3;
+    --bg-primary: #23232e;
+    --bg-secondary: #2E2E38;
+    --bg-scrollbar: #E086D3;
+    --transition-speed: 200ms;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* ---------------------------------- */
+/* GLOBAL STYLES */
+/* ---------------------------------- */
+  
+*{
+    transition: var(--transition-speed);
+    margin: 0;
+    padding: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 0.25rem;
+    height: 0.25rem;
+    background-color: var(--bg-primary);
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--bg-scrollbar);
+}
+
+html {
+    color: black;
+    background-color: white;
+    height: 100%;
+}
+
+.section{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 2rem;
+    letter-spacing: 0.2ch;
+    text-transform: uppercase;
+}
+
+.spacer{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-about-me{
+    aspect-ratio: 960/540;
+    background-image: url('./../svg/about-me.svg');
+}
+
+.bg-edu-and-exp{
+    aspect-ratio: 960/540;
+    background-image: url('./../svg/edu-and-exp.svg');
+}
+
+.bg-portfolio{
+    aspect-ratio: 960/450;
+    background-image: url('./../svg/portfolio.svg');
+}
+
+.bg-contact{
+    aspect-ratio: 960/540;
+    background-image: url('./../svg/contact.svg');
+}
+
+.brd-about-me{
+    aspect-ratio: 960/50;
+    background-image: url('./../svg/about-me-border.svg');
+}
+
+.brd-edu-and-exp{
+    aspect-ratio: 960/50;
+    background-image: url('./../svg/edu-and-exp-border.svg');
+}
+
+.brd-portfolio{
+    aspect-ratio: 960/50;
+    background-image: url('./../svg/portfolio-border.svg');
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        font-size: 14px;
+    }
+    .section{
+        height: auto;
+        padding-bottom: 10vh;
+    }
+}
+
+/* ---------------------------------- */
+/* END */
+/* ---------------------------------- */

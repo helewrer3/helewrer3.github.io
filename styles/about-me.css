@@ -1,0 +1,54 @@
+/* ---------------------------------- */
+/* ABOUT ME */
+/* ---------------------------------- */
+
+.about-me{
+    color: var(--text-primary);
+}
+
+.social-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social-icon{
+    text-decoration: none;
+    color: inherit;
+    border: solid 2px var(--bg-secondary);
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-icon svg{
+    width: 1.25rem;
+}
+
+.social-text{
+    display: none;
+}
+
+/* ---------------------------------- */
+/*  HOVER */
+
+.social-icon:hover{
+    background-color: var(--bg-secondary);
+    color: var(--text-tertiary);
+}
+
+.social-icon:hover .social-text{
+    display: inline;
+}
+
+.social-icon:hover svg{
+    margin-right: 0.5rem;
+}
+
+/* ---------------------------------- */
+/* END */
+/* ---------------------------------- */

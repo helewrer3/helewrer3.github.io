@@ -1,0 +1,57 @@
+/* ---------------------------------- */
+/* PORTFOLIO */
+/* ---------------------------------- */
+
+.contact{
+    color: var(--text-primary);
+    height: 30vh;
+    align-items: center;
+}
+
+.contact .section-title{
+    margin-bottom: 2%;
+    width: auto;
+}
+
+.contact-list{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-card{
+    margin: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    width: 13rem;
+    border: 3px solid white
+}
+
+.contact-card svg{
+    width: 2rem;
+}
+
+.contact-card:hover{
+    background-color: white;
+    color: var(--bg-primary);
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-card{
+        margin: 10px 0px;
+    }
+}
+
+/* ---------------------------------- */
+/* END */
+/* ---------------------------------- */
