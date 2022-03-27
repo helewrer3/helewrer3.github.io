@@ -2,110 +2,110 @@
 /* ABOUT ME */
 /* ---------------------------------- */
 
-.edu-and-exp{
-    color: var(--text-primary);
-    height: auto;
+.edu-and-exp {
+  color: var(--text-primary);
+  height: auto;
 }
 
-.edu-and-exp .section-title{
-    width: 75%;
-    text-align: right;
-    border-bottom: white solid 3px;
-    padding: 0% 2%;
+.edu-and-exp .section-title {
+  width: 75%;
+  text-align: right;
+  border-bottom: white solid 3px;
+  padding: 0% 2%;
 }
 
-.edu-and-exp-list{
-    list-style: none;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 3%;
+.edu-and-exp-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
 }
 
-.edu-and-exp-item{
-    margin: 1% 5%;
-    width: 30%;
-    box-shadow: 5px 5px 2px;
-    padding: 0.5rem 1rem;
-    border-radius: 2px;
-    color: var(--bg-primary);
-    background-color: rgba(255, 255, 255, 0.8);
-    align-self: flex-start;
+.edu-and-exp-item {
+  margin: 1% 5%;
+  width: 30%;
+  box-shadow: 5px 5px 2px;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  color: var(--bg-primary);
+  background-color: rgba(255, 255, 255, 0.8);
+  align-self: flex-start;
 }
 
-.edu-and-exp-item span{
-    display: flex;
-    justify-content: space-between;
+.edu-and-exp-item span {
+  display: flex;
+  justify-content: space-between;
 }
 
-.edu-and-exp-item span h3{
-    letter-spacing: 0.2ch;
+.edu-and-exp-item span h3 {
+  letter-spacing: 0.2ch;
 }
 
-.edu-and-exp-item span svg{
-    width: 0.75rem;
+.edu-and-exp-item span svg {
+  width: 0.75rem;
 }
 
-.edu-and-exp-text{
-    margin-top: 0.25rem;
-    text-align: left;
+.edu-and-exp-text {
+  margin-top: 0.25rem;
+  text-align: left;
 }
 
-.edu-and-exp-text hr{
-    border-radius: 500px;
-    border: solid 1px rgba(55, 55, 55, 0.1);
+.edu-and-exp-text hr {
+  border-radius: 500px;
+  border: solid 1px rgba(55, 55, 55, 0.1);
 }
 
-.edu-and-exp-linklist{
-    display: flex;
-    justify-content: center;
+.edu-and-exp-linklist {
+  display: flex;
+  justify-content: center;
 }
 
-.edu-and-exp-link{
-    text-decoration: none;
-    color: inherit;
-    border: solid 2px var(--bg-secondary);
-    border-radius: 2px;
-    margin: 0.5rem;
-    padding: 0.25rem 0.5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.edu-and-exp-link {
+  text-decoration: none;
+  color: inherit;
+  border: solid 2px var(--bg-secondary);
+  border-radius: 2px;
+  margin: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.edu-and-exp-link svg{
-    width: 1.5rem;
-    margin-right: 1rem;
+.edu-and-exp-link svg {
+  width: 1.5rem;
+  margin-right: 1rem;
 }
 
 @media screen and (max-width: 1000px) {
-    .edu-and-exp .section-title{
-        font-size: 1.5rem;
-        width: 80%;
-        text-align: center;
-    }
-    .edu-and-exp-list{
-        flex-direction: column;
-        justify-content: start;
-    }
-    .edu-and-exp-item{
-        width: 80%;
-        margin: 5% auto;
-    }
+  .edu-and-exp .section-title {
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+  }
+  .edu-and-exp-list {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .edu-and-exp-item {
+    width: 80%;
+    margin: 5% auto;
+  }
 }
 
 /* ---------------------------------- */
 /* HOVER */
 
-.edu-and-exp-link:hover{
-    background-color: var(--bg-primary);
-    color: var(--text-tertiary);
+.edu-and-exp-link:hover {
+  background-color: var(--bg-primary);
+  color: var(--text-tertiary);
 }
 
-.edu-and-exp-item:hover span svg{
-    transform: rotate(360deg);
+.edu-and-exp-item:hover span svg {
+  transform: rotate(360deg);
 }
 
 /* ---------------------------------- */
