@@ -1,1 +1,1 @@
-# New Site now [Live!](garvitkansal.tech)
+# New Site now [Live!](https://garvitkansal.tech)
